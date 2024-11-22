@@ -13,5 +13,3 @@ app
   .then(() => {
     console.log('HTTP Server Running!')
   })
-
-// EcmaScript Lint, serve para criar um padrão de escrita no projeto.
