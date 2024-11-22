@@ -9,4 +9,6 @@
 
 - transactions é uma das formas de fazer querys simples de inserção e buscas de dados.
 
-- Variáveis ambiente serve basicamente para criar um valor para qual ambiente está sendo trabalhado.
+- Variáveis ambiente serve basicamente para criar um valor para qual ambiente está sendo trabalhado, por ex: development, test ou production.
+
+- ZOD é uma ferramenta de validação de dados muito próxima com JS, serve para validar e tratar as váriaveis do projeto, verificando se estão corretas.
