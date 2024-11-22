@@ -8,3 +8,5 @@
 * Queries com Knex
 
 - transactions é uma das formas de fazer querys simples de inserção e buscas de dados.
+
+- Variáveis ambiente serve basicamente para criar um valor para qual ambiente está sendo trabalhado.
