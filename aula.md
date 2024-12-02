@@ -19,3 +19,13 @@
 - Os requisitos funcionais são as características do sistema que devem ser atendidas para atingir seus objetivos.
 
 - As regras de negócio são os critérios que o sistema deve seguir para suportar a tomada de decisões e garantir a conformidade.
+
+# Plugins do Fastify
+
+- plugins do Fastify, que são funções adicionais que fornecem recursos ao framework.
+
+- Os plugins podem ser usados para adicionar funcionalidades como autenticação, log, validação de dados, gerenciamento de erros, entre outras. A aula vai te ensinar a criar e utilizar um plugin de rotas.
+
+- a ordem dos plugins determinam sua prioridade de execução.
+
+- podemos criar quantos plugins quisermos dentro de uma aplicação.
