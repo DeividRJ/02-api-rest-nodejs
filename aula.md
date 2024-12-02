@@ -54,3 +54,9 @@
 - Nessa aula vamos identificar o usuário que está utilizando a aplicação ao ler e escrever informações em Cookies utilizando o Fastify.
 
 - Os cookies são como parametros só que criados por nossa própria aplicação e são enviados automaticamente em todas as requisições, ótimos para identificar usuários ou anotar informações de contexto entre requisições.
+
+# Validando existência de cookie
+
+- Nesta aula, validaremos o cookie sessionId para identificar o usuário da aplicação.
+
+- A busca e validação serão realizadas usando uma função como preHandler (middleware)
