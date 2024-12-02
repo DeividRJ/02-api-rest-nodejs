@@ -47,4 +47,10 @@
 
 # Resumo de transações
 
-Finalizando a criação de rotas, vamos implementar a rota para calcular (somar) as transações e retornar o total.
+- Finalizando a criação de rotas, vamos implementar a rota para calcular (somar) as transações e retornar o total.
+
+# Utilizando cookies no Fastify
+
+- Nessa aula vamos identificar o usuário que está utilizando a aplicação ao ler e escrever informações em Cookies utilizando o Fastify.
+
+- Os cookies são como parametros só que criados por nossa própria aplicação e são enviados automaticamente em todas as requisições, ótimos para identificar usuários ou anotar informações de contexto entre requisições.
