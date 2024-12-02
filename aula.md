@@ -29,3 +29,7 @@
 - a ordem dos plugins determinam sua prioridade de execução.
 
 - podemos criar quantos plugins quisermos dentro de uma aplicação.
+
+# Criação de transações
+
+- Nessa aula, além de estruturar as rotas de transações, vamos aprender a validar os dados da requisição (request.body) com o Zod para garantir que as informações recebidas sejam válidas e após isso, fazer de fato a inserção no banco de dados.
