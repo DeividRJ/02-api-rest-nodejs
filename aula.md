@@ -44,3 +44,7 @@
 # Listagem de transações
 
 - Nessa aula seguiremos implementando as rotas para listar todas as transações e também outra que deve receber o id para trazer uma única transação.
+
+# Resumo de transações
+
+Finalizando a criação de rotas, vamos implementar a rota para calcular (somar) as transações e retornar o total.
