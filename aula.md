@@ -12,3 +12,10 @@
 - Variáveis ambiente serve basicamente para criar um valor para qual ambiente está sendo trabalhado, por ex: development, test ou production.
 
 - ZOD é uma ferramenta de validação de dados muito próxima com JS, serve para validar e tratar as váriaveis do projeto, verificando se estão corretas.
+
+
+* REQUISITOS FUNCIONAIS
+
+- Os requisitos funcionais são as características do sistema que devem ser atendidas para atingir seus objetivos.
+
+- As regras de negócio são os critérios que o sistema deve seguir para suportar a tomada de decisões e garantir a conformidade.
