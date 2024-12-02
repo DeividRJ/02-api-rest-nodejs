@@ -60,3 +60,10 @@
 - Nesta aula, validaremos o cookie sessionId para identificar o usuário da aplicação.
 
 - A busca e validação serão realizadas usando uma função como preHandler (middleware)
+
+# Configurando um Hook Global
+
+- Nessa aula vamos aprender a como registrar hooks no Fastify e em quais rotas eles vão impactar.
+
+- Hooks servem para criar uma função "global" para a aplicação, pode ser tanto colocado dentro do arquivo somente para aquela sessão ou de forma global ou seja para todas as sessões da aplicação.
+
