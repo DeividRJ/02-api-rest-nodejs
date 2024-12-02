@@ -14,7 +14,10 @@
 - ZOD é uma ferramenta de validação de dados muito próxima com JS, serve para validar e tratar as váriaveis do projeto, verificando se estão corretas.
 
 
-* REQUISITOS FUNCIONAIS
+
+* IMPLEMENTANDO ROTAS
+
+# REQUISITOS FUNCIONAIS
 
 - Os requisitos funcionais são as características do sistema que devem ser atendidas para atingir seus objetivos.
 
@@ -36,4 +39,8 @@
 
 # Tipagem no Knex
 
-Esta aula ensinará como integrar o Knex com o TypeScript para ter suporte ao autocomplete de tabelas. Isso significa que, ao digitar o nome de uma tabela, o TypeScript será capaz de sugerir automaticamente as colunas existentes e as tipagens de dados corretas.
+- Esta aula ensinará como integrar o Knex com o TypeScript para ter suporte ao autocomplete de tabelas. Isso significa que, ao digitar o nome de uma tabela, o TypeScript será capaz de sugerir automaticamente as colunas existentes e as tipagens de dados corretas.
+
+# Listagem de transações
+
+- Nessa aula seguiremos implementando as rotas para listar todas as transações e também outra que deve receber o id para trazer uma única transação.
