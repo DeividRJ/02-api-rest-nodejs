@@ -113,3 +113,9 @@ Uma breve explicação sobre esses métodos:
 - A função describe permite agrupar testes relacionados em blocos para melhorar a legibilidade e manutenção dos códigos de testes. Além disso, é possível utilizar a função describe para criar estruturas de testes hierárquicas e repetir o setup em blocos de testes comuns.
 
 - Também é explicado sobre o uso da função it para criar cada teste, descrevendo em inglês seguindo o padrão "it should be able".
+
+# Testando listagem de transações
+
+- Nessa aula é explicado como criar um teste e2e para listagem de transações.
+
+- É ensinado como recuperar o cookie de uma resposta do supertest e utilizá-lo em outra requisição do supertest, além de validar o corpo da listagem usando as funções expect.toEqual e expect.objectContaining.
