@@ -68,6 +68,8 @@
 - Hooks servem para criar uma função "global" para a aplicação, pode ser tanto colocado dentro do arquivo somente para aquela sessão ou de forma global ou seja para todas as sessões da aplicação.
 
 
+* Testes automatizados
+
 # Entendendo testes unitários
 
 - Testes unitários são testes que validam o comportamento de uma única unidade de código, como uma função ou método. Eles são úteis para garantir que cada parte da aplicação esteja funcionando corretamente, sem depender de outras partes.
@@ -103,3 +105,11 @@ Uma breve explicação sobre esses métodos:
 - afterEach
 
 É uma função que é executada após cada teste. É útil para limpar o ambiente depois da execução de cada teste, por exemplo, limpar variáveis ou fechar conexões com o banco de dados.
+
+# Cateogrizando os testes
+
+- Esta aula irá explicar sobre a organização de testes utilizando a função describe.
+
+- A função describe permite agrupar testes relacionados em blocos para melhorar a legibilidade e manutenção dos códigos de testes. Além disso, é possível utilizar a função describe para criar estruturas de testes hierárquicas e repetir o setup em blocos de testes comuns.
+
+- Também é explicado sobre o uso da função it para criar cada teste, descrevendo em inglês seguindo o padrão "it should be able".
