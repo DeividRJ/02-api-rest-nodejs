@@ -119,3 +119,7 @@ Uma breve explicação sobre esses métodos:
 - Nessa aula é explicado como criar um teste e2e para listagem de transações.
 
 - É ensinado como recuperar o cookie de uma resposta do supertest e utilizá-lo em outra requisição do supertest, além de validar o corpo da listagem usando as funções expect.toEqual e expect.objectContaining.
+
+# Configurando banco de testes
+
+- Nesta aula, você aprenderá como se deve lidar com o banco de dados durante os testes e2e e como configurar esse processo, utilizando variáveis ambiente de testes e a função beforeEach.
