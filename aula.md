@@ -81,3 +81,25 @@
 # Criando primeiro teste
 
 - Esta aula ensina sobre como criar o primeiro arquivo de testes utilizando o vitest, uma ferramenta para escrita e execução de testes automatizados. A aula irá cobrir desde o motivo do uso dessa ferramenta até a instalação, escrita e execução do primeiro teste.
+
+# Testando a criação da transação
+
+- Esta aula ensina como criar o primeiro teste e2e para testar a rota de criação de transação, utilizando o pacote supertest. Além disso, a aula explica o uso das funções beforeAll, beforeEach, afterAll e afterEach para realizar configurações e limpezas antes e depois dos testes e2e.
+
+Uma breve explicação sobre esses métodos:
+
+- beforeAll
+
+É uma função que é executada uma única vez antes de todos os testes. É útil para inicializar recursos compartilhados que serão utilizados pelos testes.
+
+- beforeEach
+
+É uma função que é executada antes de cada teste. É útil para preparar o ambiente antes da execução de cada teste, por exemplo, inicializar variáveis ou limpar o banco de dados.
+
+- afterAll
+
+É uma função que é executada uma única vez após todos os testes terem sido executados. É útil para limpar recursos compartilhados ou fechar conexões abertas.
+
+- afterEach
+
+É uma função que é executada após cada teste. É útil para limpar o ambiente depois da execução de cada teste, por exemplo, limpar variáveis ou fechar conexões com o banco de dados.
