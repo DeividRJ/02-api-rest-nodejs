@@ -77,3 +77,7 @@
 - Testes e2e (end-to-end) são testes que validam o comportamento da aplicação como um todo, simulando a interação do usuário com a aplicação. Eles são importantes para garantir que a aplicação esteja funcionando corretamente em todos os níveis, desde a camada de interface até a camada de banco de dados.
 
 - A pirâmide de testes é uma estratégia que se baseia em ter mais testes unitários e menos testes de integração e e2e, pois testes unitários são mais rápidos e fáceis de escrever e manter do que outros tipos de testes.
+
+# Criando primeiro teste
+
+- Esta aula ensina sobre como criar o primeiro arquivo de testes utilizando o vitest, uma ferramenta para escrita e execução de testes automatizados. A aula irá cobrir desde o motivo do uso dessa ferramenta até a instalação, escrita e execução do primeiro teste.
