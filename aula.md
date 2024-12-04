@@ -123,3 +123,7 @@ Uma breve explicação sobre esses métodos:
 # Configurando banco de testes
 
 - Nesta aula, você aprenderá como se deve lidar com o banco de dados durante os testes e2e e como configurar esse processo, utilizando variáveis ambiente de testes e a função beforeEach.
+
+# Finalizando testes da aplicação
+
+- Nessa aula, implementaremos os testes das rotas restantes e concluindo os testes de todas as rotas.
