@@ -127,3 +127,18 @@ Uma breve explicação sobre esses métodos:
 # Finalizando testes da aplicação
 
 - Nessa aula, implementaremos os testes das rotas restantes e concluindo os testes de todas as rotas.
+
+# Deploy do app no Render
+
+Obs. 1: O Render há um tempo vem solicitando uma configuração a mais no projeto par realizar o deploy corretamente. Na configuração de listen no arquivo server.ts, adicione a seguinte validação:
+
+host: ("RENDER" in process.env) ? '0.0.0.0' : 'localhost',
+Obs. 2: Na plataforma Render, a variável ambiente para identificar a porta da aplicação precisa ser exatamente PORT e não pode ser definida nas configurações do serviço, pois é a própria plataforma que adiciona esse valor (não é visível).
+
+Obs. 3: Nessa aula, foi configurado a engines do node no package.json com o valor de >=18, mas essa configuração faz com que o Render utilize versões recentes, como a 21. Então deve ser trocado para "node": "18", forçando assim a utilizar a versão 18 do Node.js.
+
+Nessa aula você aprenderá como configurar a aplicação para suportar dois bancos de dados: SQLite (para desenvolvimento) e PostgreSQL (para produção). Além disso, você verá como fazer o deploy na plataforma Render, configurando o banco de dados PostgreSQL e variáveis ambiente.
+
+Build Command: npm install && npm run knex -- migrate:latest && npm run build
+
+Start Command: node build/server.js
